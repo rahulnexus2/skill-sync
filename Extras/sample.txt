@@ -1,0 +1,13 @@
+// folder structure
+
+skill-sync-backend/
+├── 📁 config/          # DB & env setup
+│   └── db.js
+├── 📁 controllers/     # Route logic (e.g., resumeController.js)
+├── 📁 models/          # MongoDB models (User.js, Resume.js)
+├── 📁 routes/          # API endpoints (authRoutes.js)
+├── 📁 middleware/      # Auth & validation
+├── 📁 utils/           # Helpers (resumeParser.js)
+├── app.js             # Main server file
+├── .env               # Environment variables
+└── package.json
